@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div class="box0">
+      width: 750rpx; <br>
+      height: 100rpx;
+    </div>
     <div class="box1">
       width: 200rpx; <br>
       height: 100rpx;
@@ -24,22 +28,28 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.box1, .box2, .box3
+.box0, .box1, .box2, .box3
   display flex
   align-items center
   justify-content center
   color white
 
+.box0
+  width 750rpx
+  height 100rpx
+  font-size 16rpx
+  background-color salmon
+
 .box1
   width 200rpx
   height 100rpx
-  font-size 016rpx
+  font-size 16rpx
   background-color red
 
 .box2
   width 300rpx
   height 100rpx
-  font-size 016rpx
+  font-size 16rpx
   background-color orange
 
 .box3
